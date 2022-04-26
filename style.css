@@ -21,7 +21,7 @@ a {
     /* set link text size */
     font-size: 18px;
     /* set link text color */
-    color: #e5e7eb
+    color: #E5E7EB;
 }
 
 ul {
@@ -81,4 +81,20 @@ img {
     font-size: 24px;
     /* set text color */
     color: #F9FAF8;
+}
+
+.hero-header {
+    /* set text color */
+    color: #F9FAF8;
+    /* set text size */
+    font-size: 48px;
+    /* set text weight */
+    font-weight:bolder;
+}
+
+.hero-subtext {
+    /* set text color */
+    color: #E5E7EB;
+    /* set text size */
+    font-size: 18px;
 }

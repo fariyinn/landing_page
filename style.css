@@ -51,3 +51,10 @@ img {
     /* set maximum width for four-bunnies images */
     max-width: 400px;
 }
+
+.hero-image {
+    /* set width */
+    width: 600px;
+    /* set height to preserve aspect ratio */
+    height:auto;
+}

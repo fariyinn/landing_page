@@ -15,6 +15,15 @@ body {
     background-color: #1F2937;
 }
 
+.nav {
+    /* set to flex */
+    display: flex;
+    /* set main axis (horizontal) alignment */
+    justify-content: space-between;
+    /* add space around items */
+    padding: 10px;
+}
+
 a {
     /* remove line under links */
     text-decoration: none;
@@ -93,6 +102,13 @@ img {
 }
 
 .hero-subtext {
+    /* set text color */
+    color: #E5E7EB;
+    /* set text size */
+    font-size: 18px;
+}
+
+.header-links {
     /* set text color */
     color: #E5E7EB;
     /* set text size */

@@ -1,5 +1,5 @@
 /* import Roboto font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     /* reset body margin */
@@ -32,7 +32,5 @@ ul {
     /* reset default margin */
     margin: 0;
 }
-
-
 
 

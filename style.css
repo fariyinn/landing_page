@@ -15,6 +15,14 @@ body {
     background-color: #1F2937;
 }
 
+a {
+    /* remove line under links */
+    text-decoration: none;
+    /* set link text size */
+    font-size: 18px;
+    /* set link text color */
+    color: #e5e7eb
+}
 
 
 

@@ -75,3 +75,10 @@ img {
     /* set text size */
     font-size: 18px;
 }
+
+.logo {
+    /* set text size */
+    font-size: 24px;
+    /* set text color */
+    color: #F9FAF8;
+}

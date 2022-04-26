@@ -40,4 +40,14 @@ ul {
     color: #F9FAF8;
 }
 
+img {
+    /* set width of images */
+    width: 200px;
+    /* set height of images to preserve aspect ratio */
+    height: auto;
+  }
 
+  .four-bunnies {
+    /* set maximum width for four-bunnies images */
+    max-width: 400px;
+}

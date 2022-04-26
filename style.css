@@ -58,3 +58,16 @@ img {
     /* set height to preserve aspect ratio */
     height:auto;
 }
+
+.hero-sign-up {
+    /* set button background color */
+    background-color: #3882F6;
+    /* set text color */
+    color: #F9FAF8;
+    /* set font weight */
+    font-weight: bold;
+    /* add padding around button text */
+    padding: 10px 40px;
+    /* add rounded corners */
+    border-radius: 10px;
+}

@@ -10,7 +10,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
+.header {
+    /* set background color */
+    background-color: #1F2937;
+}
 
 
 

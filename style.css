@@ -19,7 +19,7 @@ body {
     /* set to flex */
     display: flex;
     /* set main axis (horizontal) alignment */
-    justify-content: space-between;
+    justify-content: space-around;
     /* add space around items */
     padding: 10px;
 }
@@ -40,6 +40,10 @@ ul {
     padding: 0;
     /* reset default margin */
     margin: 0;
+    /* set to flex */
+    display: flex;
+    /* add space around list items */
+    gap: 20px;
 }
 
 .logo {
@@ -47,6 +51,8 @@ ul {
     font-size: 24px;
     /* set logo text color */
     color: #F9FAF8;
+    /* set logo text weight */
+    font-weight: bold;
 }
 
 img {

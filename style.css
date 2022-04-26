@@ -64,10 +64,14 @@ img {
     background-color: #3882F6;
     /* set text color */
     color: #F9FAF8;
-    /* set font weight */
+    /* set text weight */
     font-weight: bold;
     /* add padding around button text */
     padding: 10px 40px;
     /* add rounded corners */
     border-radius: 10px;
+    /* set border width, color and style */
+    border: 2px solid #3882F6;
+    /* set text size */
+    font-size: 18px;
 }

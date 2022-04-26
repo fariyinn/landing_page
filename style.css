@@ -33,4 +33,11 @@ ul {
     margin: 0;
 }
 
+.logo {
+    /* set logo text size */
+    font-size: 24px;
+    /* set logo text color */
+    color: #F9FAF8;
+}
+
 

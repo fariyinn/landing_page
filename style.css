@@ -24,6 +24,15 @@ a {
     color: #e5e7eb
 }
 
+ul {
+    /* remove bullets from list items */
+    list-style-type: none;
+    /* reset default padding */
+    padding: 0;
+    /* reset default margin */
+    margin: 0;
+}
+
 
 
 

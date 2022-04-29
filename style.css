@@ -257,3 +257,16 @@ img {
     /* set button width */
     width: 250px;
 }
+
+.footer {
+    /* set background color */
+    background-color: #1F2937;
+    /* set text color */
+    font-size: 18px;
+    /* set text color */
+    color: #E5E7EB;
+    /* align text */
+    text-align: center;
+    /* add space around text */
+    padding: 40px;
+}

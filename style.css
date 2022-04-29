@@ -55,25 +55,6 @@ ul {
     font-weight: bold;
 }
 
-img {
-    /* set width of images */
-    width: 200px;
-    /* set height of images to preserve aspect ratio */
-    height: auto;
-  }
-
-  .four-bunnies {
-    /* set maximum width for four-bunnies images */
-    max-width: 400px;
-}
-
-.logo {
-    /* set text size */
-    font-size: 24px;
-    /* set text color */
-    color: #F9FAF8;
-}
-
 .header-links {
     /* set text color */
     color: #E5E7EB;
@@ -87,7 +68,7 @@ img {
     /* set text size */
     font-size: 48px;
     /* set text weight */
-    font-weight:bolder;
+    font-weight: 900px;
     /* set header closer to top of container */
     margin-top: -5px;
 }
@@ -145,4 +126,55 @@ img {
     flex-wrap: wrap;
     /* add space on right */
     padding-right: 50px;
+}
+
+img {
+    /* set width of images */
+    width: 220px;
+    /* set height of images to preserve aspect ratio */
+    height: auto;
+    /* add rounded corners */
+    border-radius: 40px;
+  }
+
+.info {
+    /* set text size */
+    font-size: 36px;
+    /* set text weight */
+    font-weight: 900px;
+    /* set text color */
+    color: #1f2937;
+    /* align text */
+    text-align: center;
+}
+
+.container {
+    /* set to flex */
+    display: flex;
+    /* set main axis alignment */
+    justify-content: space-around;
+    /* add space around items */
+    padding: 0px 240px;
+    /* add space between items */
+    gap: 60px;
+}
+
+.container-text {
+    /* set to flex */
+    display: flex;
+    /* set text to wrap */
+    flex-wrap: wrap;
+    /* align text */
+    text-align: center;
+}
+
+.four-bunnies {
+    /* set to flex */
+    display: flex;
+    /* change flex direction */
+    flex-direction: column;
+    /* align items */
+    align-items: center;
+    /* add space between items */
+    gap: 10px;
 }

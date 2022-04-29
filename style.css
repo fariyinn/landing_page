@@ -154,7 +154,7 @@ img {
     /* set main axis alignment */
     justify-content: space-around;
     /* add space around items */
-    padding: 0px 240px;
+    padding: 50px 240px;
     /* add space between items */
     gap: 60px;
 }
@@ -178,3 +178,32 @@ img {
     /* add space between items */
     gap: 10px;
 }
+
+.quote {
+    /* set background color */
+    background-color: #E5E7EB;
+    /* set text size */
+    font-size: 36px;
+    /* set text weight */
+    font-weight: 100px;
+    /* set text style */
+    font-style: italic;
+    /* set text color */
+    color: #1F2937;
+    /* set to flex */
+    display: flex;
+    /* set to wrap */
+    flex-wrap: wrap;
+    /* add space around text */
+    padding: 30px 220px;
+}
+
+.source {
+    /* set text color */
+    color:#3882F6;
+    /* set text weight */
+    font-weight: 900px;
+    /* set text alignment */
+    text-align: right;
+}
+

@@ -67,11 +67,47 @@ img {
     max-width: 400px;
 }
 
+.logo {
+    /* set text size */
+    font-size: 24px;
+    /* set text color */
+    color: #F9FAF8;
+}
+
+.header-links {
+    /* set text color */
+    color: #E5E7EB;
+    /* set text size */
+    font-size: 18px;
+}
+
+.hero-header {
+    /* set text color */
+    color: #F9FAF8;
+    /* set text size */
+    font-size: 48px;
+    /* set text weight */
+    font-weight:bolder;
+    /* set header closer to top of container */
+    margin-top: -5px;
+}
+
+.hero-subtext {
+    /* set text color */
+    color: #E5E7EB;
+    /* set text size */
+    font-size: 18px;
+    /* add space between button and text */
+    padding-bottom: 45px;
+}
+
 .hero-image {
     /* set width */
-    width: 400px;
+    width: 500px;
     /* set height to preserve aspect ratio */
     height:auto;
+    /* add rounded corners */
+    border-radius: 50px;
 }
 
 .hero-sign-up {
@@ -93,32 +129,20 @@ img {
     width: 200px;
 }
 
-.logo {
-    /* set text size */
-    font-size: 24px;
-    /* set text color */
-    color: #F9FAF8;
+.hero {
+    /* set to flex */
+    display: flex;
+    /* set cross axis alignment */
+    align-items: flex-start;
+    /* add space around items */
+    padding: 100px 220px;
 }
 
-.hero-header {
-    /* set text color */
-    color: #F9FAF8;
-    /* set text size */
-    font-size: 48px;
-    /* set text weight */
-    font-weight:bolder;
-}
-
-.hero-subtext {
-    /* set text color */
-    color: #E5E7EB;
-    /* set text size */
-    font-size: 18px;
-}
-
-.header-links {
-    /* set text color */
-    color: #E5E7EB;
-    /* set text size */
-    font-size: 18px;
+.hero-content {
+    /* set to flex */
+    display: flex;
+    /* set items to wrap */
+    flex-wrap: wrap;
+    /* add space on right */
+    padding-right: 50px;
 }
